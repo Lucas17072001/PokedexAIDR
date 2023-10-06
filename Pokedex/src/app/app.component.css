@@ -1,0 +1,374 @@
+body{
+    background: rgb(26, 25, 25);
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 25px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(37, 37, 37);
+    width: 90%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    color: white;
+    margin-top: -105px;
+}
+h2{
+    color: white;
+    padding-left: 5px;
+    padding-bottom: 0;
+
+}
+h3{
+    color: white;
+    padding-left: 5px;
+    padding-bottom: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h4{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+.banner{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    height: 250px;
+}
+.pokédex{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding-top: 15px;
+    background: rgb(37, 37, 37);
+    margin-top: 35px;
+}
+main{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding-top: 55px;
+    background: rgb(37, 37, 37);
+    margin-top: -40px;
+}
+.container-search{
+    display: flex;
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    padding-bottom: 15px;
+}
+.search{
+    width: 80%;
+    margin: auto;
+    height: 40px;
+    border: 2px solid #3764d3;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    gap: 8px;
+    align-items: center;
+    margin-top: 15px;
+}
+.inputPrincipal{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.btn__search{
+    background-color: #ffcb00;
+    height: 100%;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3764d3;
+}
+.containeer{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    width: 100%;
+}
+.cardPokemon{
+    padding: 1px;
+    width: 200px;
+    border: 1px solid transparent;
+    border-image: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(232,74,126,1) 25%, rgba(143,85,203,1) 50%, rgba(29,117,207,1) 75%, rgba(50,234,254,1) 100%);
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(232,74,126,1) 25%, rgba(143,85,203,1) 50%, rgba(29,117,207,1) 75%, rgba(50,234,254,1) 100%);
+    border-radius: 9px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    background-color: rgb(37, 37, 37);
+}
+.pokemonzinhos{
+    width: 200px;
+    height: 200px;
+}
+.paraType{
+    padding-bottom: 10px;
+    padding-left: 7px;
+}
+.Grass{
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #7dc500;
+    color :rgb(255, 255, 255);
+    margin-right: 5px;
+}
+.Poison{
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #81006c;
+    color :rgb(255, 255, 255);
+    margin-right: 5px;
+}
+.Fire{
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #cf4200;
+    color :rgb(255, 255, 255);
+    margin-right: 5px;
+}
+.Water{
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #293ad8;
+    color :rgb(255, 255, 255);
+    margin-right: 5px;
+}
+.Flying{
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(158,158,158,1) 100%);
+    color :rgb(255, 255, 255);
+    margin-right: 5px;
+}
+.Bug{
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #446b00;
+    color :rgb(255, 255, 255);
+    margin-right: 5px;
+}
+.Normal{
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #707070;
+    color :rgb(255, 255, 255);
+    margin-right: 5px;
+}
+.Electric{
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f5d000;
+    color :rgb(255, 255, 255);
+    margin-right: 5px;
+}
+.Ground{
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgba(245,208,0,1) 0%, rgba(254,164,50,1) 100%);
+    color :rgb(255, 255, 255);
+    margin-right: 5px;
+}
+.Ice{
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgb(28, 175, 243);
+    color :rgb(255, 255, 255);
+    margin-right: 5px;
+}
+.Psychic{
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgb(250, 0, 167);
+    color :rgb(255, 255, 255);
+    margin-right: 5px;
+}
+.Steel{
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgb(128, 128, 128);
+    color :rgb(255, 255, 255);
+    margin-right: 5px;
+}
+.Fairy{
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgb(255, 103, 235);
+    color :rgb(255, 255, 255);
+    margin-right: 5px;
+}
+.Fighting{
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgb(139, 63, 63);
+    color :rgb(255, 255, 255);
+    margin-right: 5px;
+}
+.Rock{
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgb(211, 155, 82);
+    color :rgb(255, 255, 255);
+    margin-right: 5px;
+}
+.Ghost{
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgb(37, 10, 138);
+    color :rgb(255, 255, 255);
+    margin-right: 5px;
+}
+.Dragon{
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgb(84, 9, 224);
+    color :rgb(255, 255, 255);
+    margin-right: 5px;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(28, 175, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.linha{
+    margin-top: 0;
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(232,74,126,1) 25%, rgba(143,85,203,1) 50%, rgba(29,117,207,1) 75%, rgba(50,234,254,1) 100%);
+}
+.linha2{
+    position: relative;
+    height: 5px;
+    width: 86%;
+    margin: auto;
+    margin-top: 70px;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(232,74,126,1) 25%, rgba(143,85,203,1) 50%, rgba(29,117,207,1) 75%, rgba(50,234,254,1) 100%);
+}
+.linha3{
+    position: relative;
+    height: 5px;
+    width: 15%;
+    margin-top: -15px;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(232,74,126,1) 25%, rgba(143,85,203,1) 50%, rgba(29,117,207,1) 75%, rgba(50,234,254,1) 100%);
+}
+.linha4{
+    position: relative;
+    height: 5px;
+    width: 8%;
+    margin-top: -15px;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(232,74,126,1) 25%, rgba(143,85,203,1) 50%, rgba(29,117,207,1) 75%, rgba(50,234,254,1) 100%);
+}
+.linha5{
+    position: relative;
+    height: 5px;
+    width: 7%;
+    margin-top: -15px;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(232,74,126,1) 25%, rgba(143,85,203,1) 50%, rgba(29,117,207,1) 75%, rgba(50,234,254,1) 100%);
+}
+.content-container{
+    padding:0 ;
+    background-color: #ffffff;
+    border: 1px solid gainsboro;
+    box-shadow: 0 4px 8px black;
+    width: 1200px;
+    height: 550px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+}
+.containeer-description{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 25px;
+    left: 250px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: #e9e9e9;
+    box-shadow: 0 4px 8px black;
+}
+.pokemon-descrisão{
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 260px;
+    top: 150px;
+}
+.container-pokemon{
+    position: relative;
+    background: transparent;
+    top: 375px;
+    left: 30px;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    flex-direction: row ;
+}
+.Fechante{
+    display: flex;
+    width: 60px;
+}
+.description{
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: smaller;
+}
+.svg{
+    display: flex;
+    position: absolute;
+}
+.x{
+    left: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    gap: 8px;
+    align-items: center;
+    top: -255px;
+    left: 35px;
+    position: relative;
+}
+.voltante{
+    background-color: #3764d3;
+    border-radius: 2px;
+    color:#e9e9e9;
+}
